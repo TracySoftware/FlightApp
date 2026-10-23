@@ -17,14 +17,19 @@ namespace FlightApp
                 if (!departureClock.Show("IL", panel1.Handle))
                     MessageBox.Show("Departure: " + departureClock.LastError);
 
-          //      if (!arrivalClock.Show("US-EAST", panel2.Handle))
-          //          MessageBox.Show("Arrival: " + arrivalClock.LastError);
+                //if (!arrivalClock.Show("US-EAST", panel2.Handle));
+                //    MessageBox.Show("Arrival: " + arrivalClock.LastError);
             };
             FormClosing += (s, e) =>
             {
                 departureClock.Close();
-            //    arrivalClock.Close();
+           //     arrivalClock.Close();
             };
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
