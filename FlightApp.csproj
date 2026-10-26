@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="miniClockLib, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Clock\packages\miniClockLibrary.1.0.3\lib\net472\miniClockLib.dll</HintPath>
+      <HintPath>..\Clock\packages\miniClockLibrary.1.0.12\lib\net472\miniClockLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
